@@ -1,0 +1,23 @@
+{
+  "name": "stress-evaluation-and-management-system",
+  "version": "1.0.0",
+  "description": "Full-Stack MERN Stress Evaluation and Management System",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": [
+    "mern",
+    "stress-management",
+    "mental-health",
+    "pss-10",
+    "express",
+    "mongodb-atlas",
+    "react"
+  ],
+  "author": "StressCare Dev Team",
+  "license": "ISC"
+}
